@@ -13,7 +13,7 @@ const goBackwardsKeys = [ARROW_LEFT, ARROW_UP];
 
 export default (forwards: () => void, backwards: () => void) => {
   useEventListener("keydown", event => {
-    const { keyCode } = event as React.KeyboardEvent<Object>;
+    const { keyCode } = event as any;
 
     if (goForwardsKeys.includes(keyCode)) forwards();
     if (goBackwardsKeys.includes(keyCode)) backwards();

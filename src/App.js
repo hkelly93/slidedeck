@@ -9,10 +9,12 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs";
 import TitleSlide from "./components/TitleSlide";
 import Slide from "./components/Slide";
 
+const title = 'Unit Testing with Angular';
+
 function App() {
   const slides = [
     <TitleSlide
-      title="stress-free feature tests"
+      title={title}
       subtitle="Harrison Kelly 9/25/2019"
     />,
     <TitleSlide title="what are they?" secondary>
@@ -396,7 +398,7 @@ function App() {
   ];
   return (
     <SlideDeck
-      title="Stress-free Feature Testing"
+      title={title}
       theme={theme}
       slides={slides}
       showNavigation
