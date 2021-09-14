@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.inline {
+  display: inline-block;
+  margin: 0;
+  color: $primaryColor;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}

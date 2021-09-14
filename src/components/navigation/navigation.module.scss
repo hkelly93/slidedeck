@@ -1,0 +1,22 @@
+@import "../../variables.scss";
+
+.navigation {
+  font-family: "Nanum Gothic", sans-serif;
+  letter-spacing: 20px;
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+
+  .left-arrow,
+  .right-arrow {
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    color: #bebebe;
+
+    &:hover {
+      cursor: pointer;
+      color: $secondaryColor;
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import "../../variables.scss";
+
+.slide {
+  font-size: 3.5rem;
+  padding: 10px 15%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  h1 {
+    color: $primaryColor;
+    text-transform: uppercase;
+    font-size: 7.5rem;
+    width: 100%;
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .subtext {
+    font-size: 3.3rem;
+    font-weight: bold;
+    flex: auto;
+  }
+
+  ul {
+    list-style: none;
+    flex: auto;
+
+    li.with-bullet {
+      margin-bottom: 10px;
+      font-size: $font-size;
+      text-align: left;
+
+      &::before {
+        content: "\2022";
+        color: $secondaryColor;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        font-weight: bold;
+        font-size: $bullet-size;
+      }
+    }
+  }
+
+  a {
+    color: $bulletColor;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .highlight {
+    color: $bulletColor;
+  }
+}

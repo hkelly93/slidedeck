@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slide Component subtext does appear if it is passed 1`] = `
+<div
+  class="subtext"
+  data-testid="subtext"
+>
+  mysubtext
+</div>
+`;
+
+exports[`Slide Component title does appear if it is passed 1`] = `
+<h1
+  data-testid="title"
+>
+  mytitle
+</h1>
+`;
