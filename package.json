@@ -7,7 +7,7 @@
     "@use-it/event-listener": "^0.1.6",
     "classnames": "^2.3.1",
     "i": "^0.3.6",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "npm": "^6.14.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
